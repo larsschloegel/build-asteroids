@@ -25,12 +25,10 @@ https://www.echalk.co.uk/amusements/Games/asteroidsClassic/ateroids.html
   - descrution
   - splitting
 
-## How to run the game
-1. Make sure you have python installed.
-2. Install the dependencies: `pip install pygame`
-3. Run the game: `
+# How to run the game
+1. Run the game: `uv run main.py`
 
-## Project Structure
+# Project Structure
 - `main.py`: The entry point of the game. It contains the main game loop.
 - `player.py`: Defines the Player class, which represents the player's ship.
 - `asteroid.py`: Defines the Asteroid class, which represents the asteroids.
@@ -39,18 +37,3 @@ https://www.echalk.co.uk/amusements/Games/asteroidsClassic/ateroids.html
 - `circleshape.py`: A helper class for circle-based collision detection.
 - `constants.py`: Contains the constants used in the game.
 - `logger.py`: A simple logger for logging game events.
-
-Chapter List
-
-1
-Pygame
-Setup and install Pygame.
-2
-Gameloop
-Write a gameloop that renders the game at 60 frames per second.
-3
-Player
-Create a Player class and implement movement.
-4
-Asteroids
-Add asteroids for the player to avoid.
